@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>functionchallenge2</title>
+</head>
+<body>
+    <h1>functionchallenge2</h1>
+    <script>
+        //print and sum integer 0 -255
+         printInteger()
+
+   function printInteger(){
+      for(let i = 0; i<=255; i++){
+        document.write(`${i} <br>`) 
+     }  
+    }
+
+ let sum = 0; 
+ sumInteger()
+
+ function sumInteger(){ 
+    for(let i = 1; i<=255; i++){    
+     sum = sum + i;
+     document.write(`${sum}<br>`);
+     }
+    }
+    </script>
+</body>
+</html>
